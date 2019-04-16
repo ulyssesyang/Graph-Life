@@ -25,7 +25,7 @@ def load_image():
 
 @app.route('/code_start', methods=['GET'])
 def code_start():
-	return "Hello Flagdream!"
+	return "Test"
 
 
 if __name__ == '__main__':
