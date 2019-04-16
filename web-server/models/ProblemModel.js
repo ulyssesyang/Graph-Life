@@ -6,5 +6,5 @@ const problemSchema = mongoose.Schema({
     difficulty: String
 });
 
-const Problem = mongoose.model('Problem', problemSchema);
-module.exports = Problem;
+const ProblemModel = mongoose.model('ProblemModel', problemSchema);
+module.exports = ProblemModel;
